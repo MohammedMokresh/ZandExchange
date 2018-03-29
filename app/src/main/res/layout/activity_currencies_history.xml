@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDarkTeansparent"
+    tools:context="com.sarafizand.sarafizand.activities.CurrenciesHistoryActivity">
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true" />
+
+    <LinearLayout
+        android:id="@+id/linear_date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/toolbar"
+
+        android:layout_marginBottom="2dp"
+        android:orientation="horizontal"
+        android:weightSum="100">
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="24dp"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="10"
+            android:src="@drawable/calenderfrom_to" />
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/date_TextInputLayout"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="90"
+
+            android:textColorHint="#fff">
+
+            <EditText
+                android:id="@+id/calender_from_to"
+                style="@style/TvNormal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:focusableInTouchMode="false"
+                android:hint="@string/from_to"
+                android:inputType="date"
+                android:shadowColor="@color/white"
+                android:textColor="@color/white"
+                android:theme="@style/MyEditTextStyle2" />
+
+
+        </android.support.design.widget.TextInputLayout>
+
+
+    </LinearLayout>
+
+    <com.github.mikephil.charting.charts.LineChart
+        android:id="@+id/chart"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/booking_button"
+        android:layout_below="@+id/linear_date" />
+
+
+        <Button
+            android:layout_alignParentBottom="true"
+            android:id="@+id/booking_button"
+            style="@style/BtColored"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:text="@string/book"
+            android:visibility="gone"
+            android:textColor="@color/white" />
+
+
+
+</RelativeLayout>

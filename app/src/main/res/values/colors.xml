@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#202B31</color>
+    <color name="colorPrimaryDark">#1D2429</color>
+    <color name="colorPrimaryDarkTeansparent">#1D2429</color>
+    <color name="colorAccent">#AA1313</color>
+    <color name="colorAccentLight">#dd4d2a</color>
+    <color name="darken_ripple">#1D2429</color>
+    <color name="lighten_ripple">#455A64</color>
+    <color name="white">#ffffff</color>
+    <color name="gray">#c4c4c4</color>
+    <color name="blue">#03A9F4</color>
+    <color name="green">#4CAF50</color>
+    <color name="material_green">#299787</color>
+    <color name="material_blue">#30bbd8</color>
+    <color name="material_gray_color">#617c8d</color>
+    <color name="red">#CB1212</color>
+
+    <color name="gradientPeriodicClouds_c1">#3453d1</color>
+    <color name="gradientPeriodicClouds_c2">#6d69ff</color>
+    <color name="gradientPeriodicClouds_c3">#cd47c6</color>
+
+    <array name="gradientPeriodicClouds">
+        <item>@color/gradientPeriodicClouds_c1</item>
+        <item>@color/gradientPeriodicClouds_c2</item>
+        <item>@color/gradientPeriodicClouds_c3</item>
+    </array>
+    <color name="spinner_base_color">#44000000</color>
+    <color name="spinner_hint_text_color">#ffffcc</color>
+</resources>

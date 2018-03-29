@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@android:color/black"
+    app:bbn_badgeColor="#FFFF0000"
+    app:bbn_rippleColor="#33ffffff"
+    app:bbn_itemColorActive="@color/colorAccent"
+    app:bbn_itemColorInactive="#fff"
+
+    app:bbn_alwaysShowLabels="true">
+    <item
+        android:id="@+id/bbn_item1"
+        android:color="@color/darken_ripple"
+        android:icon="@drawable/coin"
+       android:title="@string/currencies"
+        />
+    <item
+        android:id="@+id/bbn_item2"
+        android:color="@color/darken_ripple"
+        android:icon="@drawable/transaction"
+        android:title="Transactions"
+        />
+    <item
+        android:id="@+id/bbn_item3"
+        android:color="@color/darken_ripple"
+        android:icon="@drawable/grid_world"
+        android:title="@string/news"
+        />
+    <item
+        android:id="@+id/action4"
+        android:color="@color/darken_ripple"
+        android:icon="@drawable/man_user"
+        android:title="@string/profile"
+        />
+</menu>

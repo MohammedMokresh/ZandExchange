@@ -1,1 +1,1 @@
-# ZAND
+Zand Exchange Android App

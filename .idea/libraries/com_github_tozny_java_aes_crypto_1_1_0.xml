@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="com.github.tozny:java-aes-crypto-1.1.0">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/java-aes-crypto-1.1.0.aar/2b553ea033adf203351b5b63ff3a5305/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/java-aes-crypto-1.1.0.aar/2b553ea033adf203351b5b63ff3a5305/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.tozny/java-aes-crypto/1.1.0/dce130507398ff607d893d35d8923d6f9d5a90f5/java-aes-crypto-1.1.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

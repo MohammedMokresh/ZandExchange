@@ -1,0 +1,62 @@
+{
+  "project_info": {
+    "project_number": "881876810520",
+    "firebase_url": "https://zand-2125d.firebaseio.com",
+    "project_id": "zand-2125d",
+    "storage_bucket": "zand-2125d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:881876810520:android:6b9833880200a68d",
+        "android_client_info": {
+          "package_name": "com.sarafizand.sarafizand"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "881876810520-hu4kqvu7jtc1ef71j9tll1lg72kkvc6j.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.sarafizand.sarafizand",
+            "certificate_hash": "bd5e267d79f704f4289e4b1b727e5335830a660f"
+          }
+        },
+        {
+          "client_id": "881876810520-ovqj6dgr5kfko1qcjeh5gj41hs8jknij.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC5HmlHLkOVJxl-hWvt7bhZ7rDQydIKidM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "881876810520-d244epm2ou45na1f7f41h0lhuj97j7rj.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.Mo.Elias.Zand.Exchange"
+              }
+            },
+            {
+              "client_id": "881876810520-ovqj6dgr5kfko1qcjeh5gj41hs8jknij.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
